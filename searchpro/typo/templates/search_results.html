@@ -1,0 +1,9 @@
+<h1>Search Results</h1>
+
+<ul>
+  {% for company in object_list %}
+    <li>
+      {{ company.name }}, {{ company.state }}
+    </li>
+  {% endfor %}
+</ul>
